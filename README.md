@@ -36,7 +36,7 @@ variation.
 
 ## Requirements
 
-- Python 3
+- Python or Python3
 - Biopython
 
 The code imports Biopython's codon table and sequence translation modules.
@@ -146,20 +146,14 @@ move an existing file before running if you need to preserve it.
 
 ```text
 Random_DNA-sequence-generation/
-├── README.md
-├── Scripts/
-│   └── main.py
-├── modules/
-│   ├── argument_parsing/
-│   │   └── arg_parser.py
-│   ├── fasta_output/
-│   │   └── output_writer.py
-│   ├── sequence_generation/
-│   │   └── seq_gen.py
-│   └── sequence_wrapping/
-│       └── seq_length_wrap.py
-└── results/
-    └── trail*.fasta
+ README.md
+ Scripts/main.py
+ modules/
+   argument_parsing/arg_parser.py
+   fasta_output/output_writer.py
+   sequence_generation/seq_gen.py
+   sequence_wrapping/seq_length_wrap.py
+ results/trail*.fasta
 ```
 
 - `Scripts/main.py` is the command-line entry point. It parses options, seeds
